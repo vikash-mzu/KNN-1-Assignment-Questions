@@ -1,0 +1,49 @@
+Q1> What is the KNN algorithm?
+Ans-K-nearest neighbor (KNN) is an algorithm that is used to classify a data point based on how its neighbors are classified.
+
+Q2. How do you choose the value of K in KNN?
+To select the value of K that fits your data, we run the KNN algorithm multiple times with different K values.
+ We'll use accuracy as the metric for evaluating K performance.
+ If the value of accuracy changes proportionally to the change in K, then it's a good candidate for our K value.
+
+Q3. What is the difference between KNN classifier and KNN regressor?
+Ans-
+The main distinction here is that classification is used for discrete values, whereas regression is used with continuous ones. 
+Q4. How do you measure the performance of KNN?
+The test data is used to evaluate the performance of the model
+Q5. What is the curse of dimensionality in KNN?
+Ans-
+high dimensional spaces distances between nearest and farthest points from query points become almost equal.
+Q6. How do you handle missing values in KNN?
+Ans-
+Each sample's missing values are imputed using the mean value of the 'k'-neighbors found in the dataset.
+
+Q7. Compare and contrast the performance of the KNN classifier and regressor. Which one is better for
+which type of problem?
+Ans-
+
+Q8. What are the strengths and weaknesses of the KNN algorithm for classification and regression tasks,
+and how can these be addressed?
+
+Ans-
+
+
+The strength of K-nearest neighbor (K-NN) is its simplicity and intuitive nature, making it a versatile instance-based machine learning algorithm for classification without building a learning model . 
+It can handle datasets with different properties and has been widely used in pattern recognition .
+it's main disadvantages are that it is quite computationally inefficient and its difficult to pick the “correct” value of K.
+
+Q9. What is the difference between Euclidean distance and Manhattan distance in KNN?
+
+Ans-
+Euclidean distance is the shortest path between source and destination which is a straight line
+
+ but Manhattan distance is sum of all the real distances between source(s) and destination(d) and each distance are always the straight lines 
+Q10. What is the role of feature scaling in KNN?
+Ans-
+calculate the distance between data points to determine their similarity. Features with larger magnitudes can disproportionately influence the distance calculation, leading to biased results.
+
+
+
+
+
+Q9. What is the difference between Euclidean distance and Manhattan distance in KNN?
